@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:id="@+id/UserNameEntryLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <EditText
+            android:text=""
+            android:id="@+id/UserNameEntry"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"></EditText>
+        <Button
+            android:text="Add"
+            android:id="@+id/AddNewUser"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"></Button>
+            <TextView
+        android:id="@+id/userFileContents"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+    </LinearLayout>
+    
+   
+    
+    <LinearLayout
+        android:id="@+id/CurrentUserDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Spinner
+            android:id="@+id/UserList"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+      		android:prompt="@string/UserList"      
+            >
+            </Spinner>
+    </LinearLayout>
+     <Button
+            android:text="back"
+            android:id="@+id/back"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"></Button>
+</LinearLayout>

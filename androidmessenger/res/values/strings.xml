@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">androidmessenger</string>
+<drawable name="blue">#0000ff</drawable>
+<drawable name="yellow">#ffff00</drawable>
+
+<string name="send"></string>
+<string name="friend1"></string>
+<string name="friend2"></string>
+
+<string name="select_friend">Choose friend</string>
+    <string-array name="select_friend">
+<!--     	<item></item> -->
+<!--         <item>Bob</item> -->
+<!--         <item>Alice</item> -->
+<!--         <item>Oscar</item> -->
+<!--         <item>Prof.Kwon</item> -->
+<!--         <item>Sandesh</item>	 -->
+<!--         <item>Mohanish</item> -->
+<!--         <item>Amit</item>       -->
+    </string-array>
+<string name="UserList">friend</string>
+    <string-array name="UserList">
+    	<item></item>
+    </string-array>
+
+</resources>
